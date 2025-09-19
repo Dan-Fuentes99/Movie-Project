@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from '../../assets/Original on transparent.png';
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import { Link } from "react-router";

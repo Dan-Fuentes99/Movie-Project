@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router";
+import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { fetchMovieById } from "../../api";
 import Navbar from "../../Components/Navbar/Navbar";

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Results.css";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 
 
 function Results({ movies, error, loading }) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../assets/Original on transparent.png';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {

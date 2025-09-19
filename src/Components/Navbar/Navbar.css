@@ -47,3 +47,42 @@ nav button {
 nav button:hover {
     background-color: #5ac162;
 }
+
+
+@media (max-width: 768px) {
+    .logo-img {
+        width: 150px;
+        margin: 0 10px;
+    }
+
+    nav {
+        padding: 10px 16px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .link {
+        font-size: 18px;
+    }
+
+    nav button {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-img {
+        width: 120px;
+        margin: 0 5px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+}

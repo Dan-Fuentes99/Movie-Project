@@ -36,3 +36,24 @@ ul {
 .footer-link:hover {
     color: #71db77;
 }
+
+@media (max-width: 768px) {
+    .footer-links {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-link {
+        font-size: 18px;
+    }
+    .footer-copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 10px 0;
+    }
+}

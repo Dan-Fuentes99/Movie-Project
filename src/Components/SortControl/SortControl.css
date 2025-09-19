@@ -23,3 +23,11 @@ select {
 select:focus {
   outline: 2px solid #71db77;
 }
+
+@media (max-width: 1200px) {
+  .sort-wrapper {
+    padding: 0 16px;
+    width: 100%;
+    max-width: 768px;
+  }
+}

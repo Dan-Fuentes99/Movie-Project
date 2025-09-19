@@ -48,3 +48,46 @@
     background-color: #71db77;
     color: #3b3b3b;
 }
+
+@media (max-width: 768px) {
+    .home-body {
+        padding: 40px 20px;
+        gap: 16px;
+
+    }
+
+    .home-body h1 {
+        font-size: 48px;
+        padding: 16px;
+    }
+
+    .home-body p {
+        font-size: 32px;
+        padding: 8px;
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .home-body button {
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+}   
+
+@media (max-width: 480px) {
+    .home-body h1 {
+        font-size: 36px;
+        padding: 12px;
+    }
+
+    .home-body p {
+        font-size: 24px;
+        padding: 6px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .home-body button {
+        font-size: 32px;
+    }
+}

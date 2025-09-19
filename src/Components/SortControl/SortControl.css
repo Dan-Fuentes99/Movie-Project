@@ -1,0 +1,25 @@
+.sort-control {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.sort-wrapper {
+  width: 100%;
+  max-width: 1200px;
+}
+
+select {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background-color: #e3e3e3;
+  color: black;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+select:focus {
+  outline: 2px solid #71db77;
+}

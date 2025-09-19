@@ -1,0 +1,50 @@
+.home-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    text-align: center;
+    gap: 20px;
+    padding: 0 20px;
+    background-image: linear-gradient(#0000007e, #0000007e), url(/public/movie-poster-background.jpg);
+}
+
+.home-body h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #71db77;
+    background-color: #5a5a5aed;
+    border-radius: 16px;
+    padding: 20px;
+    border: solid 2px #71db77;
+}
+
+.home-body p {
+    font-size: 48px;
+    font-weight: 400;
+    color: #e1e1e1;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #3b3b3bcf;
+    border-radius: 10px;
+    border: solid 2px #65d96a;
+    padding: 20px;
+}
+
+.home-body button {
+    background-color: #3b3b3b;
+    color: #71db77;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 48px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.home-body button:hover {
+    background-color: #71db77;
+    color: #3b3b3b;
+}
